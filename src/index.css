@@ -1,0 +1,41 @@
+@font-face{font-family:'Netflix';font-weight:100;src:url('./fonts/NetflixSans_W_Th.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: 'Netflix' !important;
+
+}
+
+
+.slider {
+  max-width: 300px;
+  height: 200px;
+  opacity: 0.7;
+  /* margin: 20px auto; */
+  position: initial;
+}
+.slide1,.slide2,.slide3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+  background: url(http://fr.web.img6.acsta.net/r_1920_1080/medias/nmedia/18/63/97/89/18894355.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 20s infinite;
+-webkit-animation:fade 20s infinite;
+
+} 
+.slide2 {
+  background: url(http://fr.web.img5.acsta.net/r_1920_1080/medias/nmedia/18/63/97/89/18800973.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 20s infinite;
+-webkit-animation:fade2 20s infinite;
+}
+.slide3 {
+    background: url(http://fr.web.img3.acsta.net/r_1920_1080/pictures/18/05/02/18/06/1171525.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 20s infinite;
+-webkit-animation:fade3 20s infinite;
+}
